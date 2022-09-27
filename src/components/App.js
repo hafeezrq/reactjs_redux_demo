@@ -1,3 +1,4 @@
+import SongDetail from './SongDetail';
 import SongsList from './SongsList';
 
 function App() {
@@ -6,6 +7,9 @@ function App() {
       <div className='ui row'>
         <div className='column eight wide'>
           <SongsList />
+        </div>
+        <div className='column eight wide'>
+          <SongDetail />
         </div>
       </div>
     </div>
